@@ -5,7 +5,7 @@ Sleep modes enable the application to shutdown unusedmodules in the MCU, thereby
 
 ## Sleep Modes  
 The picture below shows the different sleep modes, BOD disable ability and their wake-up sources.  
-![Img: Different sleep modes](avr_sleep_modes_table.png)  
+![Img: Different sleep modes](http://xtronix.in/blog/wp-content/uploads/2014/08/avr-sleep-modes.png)  
 
 #### Idle Mode
 This mode stops the CPU but allows the SPI, USART, Analog Comparator, 2-wire Serial Interface, Timer/Counter, Watchdog, and Interrupt system to continue operating. Basically Basically idle mode halts CLK _cpu_ and CLK _flash_ while other continues to run.  
