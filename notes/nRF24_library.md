@@ -137,33 +137,4 @@ Protected methods that address the chip directly (not for regular users).
 
 [1]: https://maniacbug.github.io/RF24/classRF24.html
 
-## RF24.h File Reference
-
-#### [Classes][1]
-
-```c++
-class RF24
-```  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Driver for nRF24L01(+) 2.4GHz Wireless Transceiver.  
-
-#### [Enumerations](https://maniacbug.github.io/RF24/RF24_8h.html)
-
-```c++
-enum rf24_pa_dbm_e{
-	RF24_PA_MIN = 0, RF24_PA_LOW, RF24_PA_HIGH, RF24_PA_MAX, RF24_PA_ERROR
-}
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power Amplifier level.  
-```c++
-enum rf24_datarate_e{
-	RF24_1MBPS = 0, RF24_2MBPS, RF24_250KBPS
-}
-```  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datarate(data transmission speed).  
-```c++
-enum rf24_crclength_e{
-	RF24_CRC_DISABLED = 0, RF24_CRC_8, RF24_CRC_16
-}
-```  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRC length.  
 
